@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "wiz": {
+      "type": "http",
+      "url": "https://mcp.app.wiz.io",
+      "headers": {
+        "Wiz-Client-Id": "zzlohuyelvh3xidxwsvmms3nqjgjm73gocjvb5eodez3zczwjtsgs",
+        "Wiz-Client-Secret": "saMi6Gw5k8ZOANbqR3rlxgiwa5r9fLtrD3VnXLWA5UbIUkgtPlPnKwCQjxgn2M7Y",
+        "Wiz-DataCenter": "us100",
+        "X-Wiz-MCP-Mode": "gateway"
+      }
+    }
+  }
+}

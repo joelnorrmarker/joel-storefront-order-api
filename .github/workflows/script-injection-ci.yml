@@ -1,0 +1,11 @@
+name: "Script Injection CI"
+on:
+  issues:
+    types: [opened]
+permissions: write-all
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Processing issue: ${{ github.event.issue.title }}"
