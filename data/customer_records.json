@@ -1,0 +1,9 @@
+[
+  {
+    "customer_id": "CUST-90210",
+    "name": "Sarah Connor",
+    "ssn": "987-65-4321",
+    "card_number": "4532-0150-0000-0000",
+    "cvv": "842"
+  }
+]

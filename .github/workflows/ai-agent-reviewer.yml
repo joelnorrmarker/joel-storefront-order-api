@@ -1,0 +1,14 @@
+name: "AI Code Reviewer"
+on:
+  pull_request_target:
+    types: [opened]
+permissions: write-all
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: coderabbitai/ai-pr-reviewer@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: "sk-proj-DEMO-AI-KEY-1234567890abcdef"
